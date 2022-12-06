@@ -3,6 +3,7 @@ A simple chat rooms website
 
 ## Preview
 
+https://user-images.githubusercontent.com/65834849/205992712-2a6327a5-0b81-48c1-a2ff-5017888ce7f0.mp4
 
 ## Prerequisites
   - you should ensure that your local machine has PHP and [Composer](https://getcomposer.org/) installed. for more information visit [laravel docs](https://laravel.com/docs/9.x/installation)
@@ -35,7 +36,7 @@ A simple chat rooms website
 
 * Run `php artisan migrate` to create database tables
 
-* Now if you want to add some random data to your database for test purposes run `php artisan db:seed`
+* Run `php artisan db:seed` if you want to add some random data to your database for test purposes
  
 * Now if you want to enable the realtime features "broadcasting", you should set pusher credentials in .env
    
